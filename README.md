@@ -82,7 +82,7 @@ To run the project locally you have to install Nodejs version 10+. Clone the pro
 
 Once you set the environment variables try to run below commands:
 
-- `npm run server` - will run the development server on localhost:300 by default
+- `npm run server` - will run the development server on localhost:3000 by default
 - `npm start` - will run the production server
 
 This project uses `nodemon` for running the development server. If you have trouble working with nodemon due to permission uses, you can installing `nodemon` globally.
