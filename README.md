@@ -1,9 +1,9 @@
-# inventory-management-system
+#  PS-inventory-management-system
 
 
 <h1 align="center">
   <img src="public/images/logo.png">
-  <div> inventory-management-system
+  <div>  PS-inventory-management-system
 </div>
 </h1>
 
