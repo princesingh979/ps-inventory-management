@@ -31,7 +31,7 @@ const getAllProducts = async (req, res) => {
   res.json(findAllProducts);
 };
 
-// Delete Selected Product
+// Delete Selected goods 
 const deleteSelectedProduct = async (req, res) => {
   const deleteProduct = await Product.deleteOne(
     { _id: req.params.id }
