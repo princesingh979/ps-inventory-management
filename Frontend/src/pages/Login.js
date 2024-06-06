@@ -19,7 +19,7 @@ function Login() {
 
   const authCheck = () => {
     setTimeout(() => {
-      fetch("http://localhost:4000/api/login")
+      fetch("http://localhost:3000/api/login")
         .then((response) => response.json())
         .then((data) => {
           alert("Successfully Login");
@@ -40,7 +40,7 @@ function Login() {
     if (form.email === "" || form.password === "") {
       alert("To login user, enter details to proceed...");
     } else {
-      fetch("http://localhost:4000/api/login", {
+      fetch("http://localhost:3000/api/login", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
@@ -80,11 +80,10 @@ function Login() {
               Signin to your account
             </h2>
             <p className="mt-2 text-center text-sm text-gray-600">
-              Or
               <span
                 className="font-medium text-indigo-600 hover:text-indigo-500"
               >
-              
+            
               </span>
             </p>
           </div>
